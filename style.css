@@ -1,0 +1,83 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #ebecf1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  color: #1f4068;
+  font-size: 30px;
+}
+
+h2 {
+  color: #91d18b;
+}
+
+.card-white{
+  background-color: white;
+  width: 800px;
+  margin: 24px auto;
+  text-align: center;
+  padding: 24px 8px;
+  box-shadow: 1px 1px 10px rgb(200,200,200);
+}
+
+.button {
+  font-weight: 700;
+  background-color: #bb2205;
+  color:white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+a:hover{
+  color:black;
+}
+
+.image-circle {
+  height:160px;
+  width:160px;
+  border-radius: 80px;
+  margin: 10px auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 2px 0 0;
+  padding: 5px 8px;
+  font-size: 25px;
+}
+
+li:hover{
+  color: black;
+  font-size: 30px;
+}
